@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9d0c5eea0ca08e085917b48fa5336ac57cc0a795">
+        <dex dex="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/pre-dexed/debug/instant-run-bootstrap_2590ada2a641eb243a7a8185c8ccae79de334a42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/pre-dexed/debug/android-support-v4_b51d14cc77149ada0e85134ce9a9b81b58137d8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/libs/pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/pre-dexed/debug/pinyin4j-2.5.0_49b56f2c41ac74ff6d847ca18e84b9d8574aabc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c94f371c122816dddd2ae56672213d943099863c">
+        <dex dex="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/pre-dexed/debug/instant-run_43fa80b3768517ef9edeb897aab9a3cbe40dec18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/libs/dom4j-1.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5d3ccc056b6f056dbf0dddfdf43894b9065a8f94">
+        <dex dex="/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/pre-dexed/debug/dom4j-1.6.1_1f1f5652fac6ac836c0fb8ec534fd7b94ffe1e99.jar" />
+    </item>
+
+</items>

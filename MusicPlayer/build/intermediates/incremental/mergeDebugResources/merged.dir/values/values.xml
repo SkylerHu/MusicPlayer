@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="activity_list_top_title">位置</string>
+    <string name="app_name">MusicPlayer</string>
+    <string name="btn_delete_cancel_text">取消</string>
+    <string name="btn_delete_sure_text">确定</string>
+    <string name="btn_detail_cancel_text">取消</string>
+    <string name="btn_detail_save_text">保存</string>
+    <string name="cb_delete_file_text">同时删除音乐文件</string>
+    <string name="hello_world">正在进入…</string>
+    <string name="no_music">没有播放的歌曲</string>
+    <string name="pager_music_look_tx">服务器在维护…</string>
+    <string name="pager_music_search_tx">请输入歌手或歌名</string>
+    <string name="rbtn_music_look_string">淘歌</string>
+    <string name="rbtn_music_mine_string">我的</string>
+    <string name="rbtn_music_search_string">搜索</string>
+    <string name="tv_delete__text">吗？</string>
+    <string name="tv_delete_sure_text">确定要删除</string>
+    <string name="tv_delete_title_text">删除音乐</string>
+    <string name="tv_detail_album_text">专辑：</string>
+    <string name="tv_detail_artist_text">歌手：</string>
+    <string name="tv_detail_duration_text">时长：</string>
+    <string name="tv_detail_name_text">歌曲：</string>
+    <string name="tv_detail_path_text">路径：</string>
+    <string name="tv_detail_size_text">大小：</string>
+    <string name="tv_detail_title_text">歌曲信息</string>
+    <string name="tv_hint_artist">歌手</string>
+    <string name="tv_hint_display_name">歌曲名称</string>
+    <string name="tv_hint_time">时长</string>
+    <string name="tv_lyric_artist_hint">歌手</string>
+    <string name="tv_lyric_disname_hint">歌曲名称</string>
+    <string name="tv_lyric_time_text">00:00</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="CustomDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="MarqueeTextView">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="RbtnMusicStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/btn_top_selector</item>
+    </style>
+</resources>

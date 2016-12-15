@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_show_list.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_show_list.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/music_pager_mine_gv_item.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/music_pager_mine_gv_item.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/music_pager_look.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/music_pager_look.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_lyric.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_lyric.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/notification_content_view.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/notification_content_view.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_music.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_music.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/music_pager_search.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/music_pager_search.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/dialog_music_delete.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/dialog_music_delete.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_top.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_top.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_folder.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_folder.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/music_list_item.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/music_list_item.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/menu_popup_window.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/menu_popup_window.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/music_pager_mine.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/music_pager_mine.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/dialog_music_detail.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/dialog_music_detail.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_bottom.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_bottom.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/layout/activity_folder_list_item.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/layout/activity_folder_list_item.xml"
+    }
+]

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ContentDescription,UselessParent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/music_bottom_bg"
+        >
+
+        <ProgressBar
+            android:id="@+id/pb_bottom_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" 
+            />
+
+        <ImageView
+            android:id="@+id/iv_bottom_artist"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/artist_default_ig" 
+            android:layout_below="@+id/pb_bottom_progress"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_info"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/iv_bottom_artist"
+            android:layout_below="@+id/pb_bottom_progress"
+            android:orientation="vertical"
+            android:padding="3dp"
+            >
+
+            <com.anjoyo.musicplayer.define.MarqueeTextView
+                android:id="@+id/tv_bottom_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MarqueeTextView"
+                android:hint="@string/tv_hint_artist"
+                android:textColor="#aaffffff"
+                android:textSize="12sp" />
+
+            <com.anjoyo.musicplayer.define.MarqueeTextView
+                android:id="@+id/tv_bottom_display_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/MarqueeTextView"
+                android:text="@string/tv_hint_display_name"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_bottom_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:hint="@string/tv_hint_time"
+                android:singleLine="true"
+                android:textColor="#aaffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_play"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/ll_bottom_info"
+            android:layout_below="@+id/pb_bottom_progress"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/ibtn_bottom_play_pre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ibtn_pre_selector" 
+                android:background="@null" 
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/ibtn_bottom_play_current"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ibtn_play_selector"
+                android:background="@null" 
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/ibtn_bottom_play_next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ibtn_next_selector"
+                android:background="@null"  
+                android:padding="5dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

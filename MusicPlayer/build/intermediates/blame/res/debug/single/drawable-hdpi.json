@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_pre_pressed.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_pre_pressed.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/btn_search_bg.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/btn_search_bg.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/current_song_play.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/current_song_play.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_artist_default.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_artist_default.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/music_bottom_bg.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/music_bottom_bg.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_play.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_play.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/sb_pressed.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/sb_pressed.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/music_top_bg.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/music_top_bg.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/artist_default_ig.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/artist_default_ig.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_pre.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_pre.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/et_background.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/et_background.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_play_pressed.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_play_pressed.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_pause.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_pause.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/music_view_bg.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/music_view_bg.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_favorites.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_favorites.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_download.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_download.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_pause_pressed.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_pause_pressed.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_btn_back.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_btn_back.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_next_pressed.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_next_pressed.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/btn_press_bg.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/btn_press_bg.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_music_normal.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_music_normal.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/lyric_back_bg.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/lyric_back_bg.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/sb_normal.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/sb_normal.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_search.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_search.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_local_music.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_local_music.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_next.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_next.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_folder_plus.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_folder_plus.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/current_song_pause.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/current_song_pause.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_music_favorite.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_music_favorite.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/lyric_btn_music_list_bg.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/lyric_btn_music_list_bg.png"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi/icon_add_operate.png",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/icon_add_operate.png"
+    }
+]

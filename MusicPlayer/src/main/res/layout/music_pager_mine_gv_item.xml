@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_top_selector"
+    tools:ignore="ContentDescription,UseCompoundDrawables" >
+
+    <ImageView
+        android:id="@+id/iv_music_mine_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_music_mine_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_music_mine_gv"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout 
+        android:id="@+id/ll_music_mine_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_music_mine_gv"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/tv_music_mine_gv_num"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/iv_music_mine_gv_state"
+            android:textColor="#ffffff" />
+		<ImageView 
+		    android:id="@+id/iv_music_mine_gv_state"
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginRight="5dp"
+		    android:src="@drawable/current_song_pause"
+		    android:visibility="invisible"
+		    android:layout_alignParentRight="true"
+		    />
+    </RelativeLayout>
+
+</RelativeLayout>

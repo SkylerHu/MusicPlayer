@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/btn_selector"
+    tools:ignore="UseCompoundDrawables,ContentDescription" >
+
+    <ImageView
+        android:id="@+id/iv_folder_isplaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/current_song_pause"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_folder_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/iv_folder_isplaying"
+        android:layout_toLeftOf="@+id/tv_folder_count"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        />
+	<TextView 
+	    android:id="@+id/tv_folder_count"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="14sp" 
+        android:layout_alignParentRight="true"
+	    android:layout_marginRight="10dp"
+	    />
+	<com.anjoyo.musicplayer.define.MarqueeTextView
+	    android:id="@+id/tv_folder_filepath"
+	    android:layout_width="wrap_content"
+	    android:layout_height="20dp"
+	    android:gravity="clip_vertical"
+        style="@style/MarqueeTextView"
+        android:textColor="#ffffff"
+        android:textSize="12sp" 
+	    android:layout_below="@+id/tv_folder_name"
+	    />
+</RelativeLayout>

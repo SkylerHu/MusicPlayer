@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/anim/lyric_out_bottom_to_top.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/anim/lyric_out_bottom_to_top.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/anim/lyric_in_bottom_to_top.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/anim/lyric_in_bottom_to_top.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/anim/in_keep_no_anim.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/anim/in_keep_no_anim.xml"
+    }
+]

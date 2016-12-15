@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    tools:ignore="ContentDescription" >
+
+    <ImageButton
+        android:id="@+id/ibtn_activity_top_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn_top_selector"
+        android:src="@drawable/icon_btn_back" 
+        />
+    <ImageButton
+        android:id="@+id/ibtn_activity_top_search"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn_top_selector"
+        android:src="@drawable/icon_search" 
+        android:layout_alignParentRight="true"
+        />
+    <com.anjoyo.musicplayer.define.MarqueeTextView
+        android:id="@+id/tv_activity_top_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/ibtn_activity_top_back"
+        android:layout_toLeftOf="@+id/ibtn_activity_top_search"
+    	android:background="@drawable/music_top_bg"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        style="@style/MarqueeTextView"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:hint="@string/activity_list_top_title"
+        />
+
+    
+</RelativeLayout>

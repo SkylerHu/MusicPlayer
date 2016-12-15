@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#ffffff"
+    tools:ignore="TextFields,Deprecated" >
+
+    <TextView 
+        android:id="@+id/tv_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="2dp"
+        android:text="@string/tv_detail_title_text"
+        />
+    <View
+        android:id="@+id/view_detail_sp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tv_detail_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#3399ff" 
+        />
+    <TextView
+        android:id="@+id/tv1_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/view_detail_sp"
+        android:text="@string/tv_detail_name_text" />
+
+    <EditText
+        android:id="@+id/et_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:textSize="12sp"
+        android:layout_below="@+id/view_detail_sp"
+        android:background="#ffffff"
+        android:layout_margin="1dp"
+        android:layout_toRightOf="@+id/tv1_detail_name"
+        />
+
+    <TextView
+        android:id="@+id/tv1_detail_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv1_detail_name"
+        android:gravity="center_vertical"
+        android:text="@string/tv_detail_artist_text" />
+
+    <EditText
+        android:id="@+id/et_detail_artist"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:textSize="12sp"
+        android:background="#ffffff"
+        android:layout_margin="1dp"
+        android:layout_below="@+id/et_detail_name"
+        android:layout_toRightOf="@+id/tv1_detail_artist"
+        />
+
+    <TextView
+        android:id="@+id/tv1_detail_albun"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv1_detail_artist"
+        android:gravity="center_vertical"
+        android:text="@string/tv_detail_album_text" />
+
+    <EditText
+        android:id="@+id/et_detail_album"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:textSize="12sp"
+        android:background="#ffffff"
+        android:layout_margin="1dp"
+        android:layout_below="@+id/et_detail_artist"
+        android:layout_toRightOf="@+id/tv1_detail_albun"
+        />
+
+    <TextView
+        android:id="@+id/tv1_detail_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv1_detail_albun"
+        android:gravity="center_vertical"
+        android:text="@string/tv_detail_duration_text" />
+
+    <TextView
+        android:id="@+id/tv_detail_duration"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_detail_album"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/tv1_detail_duration"
+        android:editable="false" />
+
+    <TextView
+        android:id="@+id/tv1_detail_size"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_detail_duration"
+        android:gravity="center_vertical"
+        android:text="@string/tv_detail_size_text" />
+
+    <TextView
+        android:id="@+id/tv_detail_size"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/tv_detail_duration"
+        android:layout_toRightOf="@+id/tv1_detail_size" />
+
+    <TextView
+        android:id="@+id/tv1_detail_path"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_detail_size"
+        android:gravity="center_vertical"
+        android:text="@string/tv_detail_path_text" />
+
+    <TextView
+        android:id="@+id/tv_detail_path"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_detail_size"
+        android:layout_toRightOf="@+id/tv1_detail_path" />
+    <LinearLayout 
+        android:id="@+id/ll_detail"
+        android:layout_below="@+id/tv_detail_path"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Button 
+            android:id="@+id/btn_detial_save"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="@string/btn_detail_save_text"
+            android:background="@drawable/btn_selector"
+            />
+        <Button 
+            android:id="@+id/btn_detial_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="@string/btn_detail_cancel_text"
+            android:background="@drawable/btn_selector"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

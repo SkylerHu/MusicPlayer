@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <GridView 
+        android:id="@+id/gv_music_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:layout_margin="4dp"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        ></GridView>
+    <!-- <TableLayout 
+        android:id="@+id/tl_music_pager_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow >
+            <Button 
+                android:id="@+id/btn_music_local_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selector"
+                android:drawableTop="@drawable/icon_local_music"
+                android:text="@string/pager_music_local"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                />
+            <Button 
+                android:id="@+id/btn_music_floder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selector"
+                android:drawableTop="@drawable/icon_folder_plus"
+                android:text="@string/pager_music_floder"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                />
+            <Button 
+                android:id="@+id/btn_music_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selector"
+                android:drawableTop="@drawable/icon_download"
+                android:text="@string/pager_music_download"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                />
+        </TableRow>
+        <TableRow >
+            <Button 
+                android:id="@+id/btn_music_add_operate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_selector"
+                android:drawableTop="@drawable/icon_add_operate"
+                android:text="@string/pager_music_add_operate"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                />
+        </TableRow>
+    </TableLayout>
+	 -->
+</RelativeLayout>

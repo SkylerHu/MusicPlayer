@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_background" >
+
+    <RadioGroup
+        android:id="@+id/rg_music_head"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbn_music_mine"
+            style="@style/RbtnMusicStyle"
+            android:text="@string/rbtn_music_mine_string" />
+
+        <RadioButton
+            android:id="@+id/rbn_music_look"
+            style="@style/RbtnMusicStyle"
+            android:text="@string/rbtn_music_look_string" />
+
+        <RadioButton
+            android:id="@+id/rbn_music_search"
+            style="@style/RbtnMusicStyle"
+            android:text="@string/rbtn_music_search_string" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view_music_position"
+        android:layout_width="107dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="57dp"
+        android:background="#ffffff" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_music"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rg_music_head"
+        android:layout_marginTop="5dp" />
+
+    <include layout="@layout/activity_bottom" />
+
+</RelativeLayout>

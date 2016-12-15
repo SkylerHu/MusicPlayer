@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+		INJECTED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:12:5-84
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:12:22-81
+uses-permission#android.permission.INTERNET
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:15:22-72
+application
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:17:5-54:19
+	android:label
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:21:9-41
+	android:allowBackup
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:20:9-45
+	android:theme
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:22:9-40
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:18:9-75
+activity#com.anjoyo.musicplayer.LoginActivity
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:23:9-32:20
+	android:label
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:25:13-45
+	android:theme
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:26:13-83
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:24:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:30:27-74
+service#com.anjoyo.musicplayer.service.MusicPlayService
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:34:9-35:19
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:34:18-80
+activity#com.anjoyo.musicplayer.MusicActivity
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:37:9-40:20
+	android:launchMode
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:39:13-44
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:38:13-64
+activity#com.anjoyo.musicplayer.FolderActivity
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:41:9-44:20
+	android:launchMode
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:42:13-65
+activity#com.anjoyo.musicplayer.ShowListActivity
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:45:9-48:20
+	android:launchMode
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:46:13-67
+activity#com.anjoyo.musicplayer.LyricActivity
+ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:49:9-53:20
+	android:launchMode
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:51:13-44
+	android:theme
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:52:13-60
+	android:name
+		ADDED from /Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/AndroidManifest.xml:50:13-64

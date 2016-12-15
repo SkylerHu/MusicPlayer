@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_background"
+    >
+	<include layout="@layout/activity_top"/>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="60dp"
+	    android:layout_marginBottom="60dp"
+	    android:orientation="vertical"
+        >
+        <ListView 
+	    android:id="@+id/lv_activity_folder"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:cacheColorHint="#00000000"
+	    android:dividerHeight="1dp"
+	    android:divider="#cccccc99"
+	    ></ListView>
+    </LinearLayout>
+	
+
+	<include
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    layout="@layout/activity_bottom" />
+
+</RelativeLayout>

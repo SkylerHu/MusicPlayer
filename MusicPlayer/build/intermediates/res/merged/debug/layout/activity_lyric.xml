@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription,UselessParent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22000000" 
+        >
+
+        <ImageButton
+            android:id="@+id/ibtn_lyric_back"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/lyric_back_bg" />
+
+        <com.anjoyo.musicplayer.define.MarqueeTextView
+            android:id="@+id/tv_lyric_display_name"
+            style="@style/MarqueeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/ibtn_lyric_back"
+            android:gravity="center_vertical"
+            android:hint="@string/tv_lyric_disname_hint"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <com.anjoyo.musicplayer.define.MarqueeTextView
+            android:id="@+id/tv_lyric_artist"
+            style="@style/MarqueeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_alignLeft="@+id/tv_lyric_display_name"
+            android:layout_below="@+id/tv_lyric_display_name"
+            android:hint="@string/tv_lyric_artist_hint"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <com.anjoyo.musicplayer.define.LyricView
+            android:id="@+id/tv_lyric_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/sb_lyric"
+            android:layout_below="@+id/tv_lyric_artist"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center" />
+
+        <SeekBar
+            android:id="@+id/sb_lyric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_lyric_current_time"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:progressDrawable="@drawable/sb_style"
+            android:thumb="@drawable/sb_thumb" 
+            android:thumbOffset="9dp"
+            android:minHeight="3dp"
+            android:maxHeight="3dp"
+            />
+        <TextView 
+            android:id="@+id/tv_lyric_current_time"
+            android:layout_height="14dp"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:text="@string/tv_lyric_time_text"
+            android:layout_alignLeft="@+id/sb_lyric"
+            android:layout_above="@+id/ll_lyric"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView 
+            android:id="@+id/tv_lyric_duration"
+            android:layout_height="14dp"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#cccccc"
+            android:text="@string/tv_lyric_time_text"
+            android:layout_alignRight="@+id/sb_lyric"
+            android:layout_above="@+id/ll_lyric"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_lyric"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <ImageButton 
+                android:id="@+id/ibtn_lyric_list"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/lyric_btn_music_list_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <ImageButton 
+                android:id="@+id/ibtn_lyric_pre"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ibtn_pre_selector"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <ImageButton 
+                android:id="@+id/ibtn_lyric_current"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ibtn_play_selector"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <ImageButton 
+                android:id="@+id/ibtn_lyric_next"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ibtn_next_selector"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <ImageButton 
+                android:id="@+id/ibtn_lyric_fav"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_favorites"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

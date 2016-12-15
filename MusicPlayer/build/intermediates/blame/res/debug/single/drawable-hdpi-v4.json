@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi-v4/lyric_background.jpg",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/lyric_background.jpg"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi-v4/main_background.jpg",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/main_background.jpg"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable-hdpi-v4/music_background.jpg",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable-hdpi/music_background.jpg"
+    }
+]

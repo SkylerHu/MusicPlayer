@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/ibtn_pre_selector.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/ibtn_pre_selector.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/ibtn_next_selector.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/ibtn_next_selector.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/btn_selector.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/btn_selector.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/ibtn_pause_selector.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/ibtn_pause_selector.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/btn_top_selector.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/btn_top_selector.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/btn_search_selector.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/btn_search_selector.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/ibtn_play_selector.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/ibtn_play_selector.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/sb_style.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/sb_style.xml"
+    },
+    {
+        "merged": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/build/intermediates/res/merged/debug/drawable/sb_thumb.xml",
+        "source": "/Users/skyler/Documents/MyProject/AS/MusicPlayer/MusicPlayer/src/main/res/drawable/sb_thumb.xml"
+    }
+]
